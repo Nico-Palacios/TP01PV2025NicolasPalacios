@@ -1,5 +1,25 @@
-body{
-    background-color: aqua;
+*{
+    padding: 0%;
+    margin: 0%;
 }
 
+body{
+    background-color: aqua;
+    box-sizing: border-box;
+}
 
+.Navegacion{
+    display: flex;
+    justify-content: center;
+}
+
+.estiloTitulo{
+    display: flex;
+    justify-content: center;
+    font-family: "Krona One", sans-serif;
+}
+
+.estiloFooter{
+    display: flex;
+    justify-content: center;
+}
