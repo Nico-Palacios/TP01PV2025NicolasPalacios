@@ -1,6 +1,6 @@
 *{
     padding: 0%;
-    margin: 0%;
+    margin: 1%;
 }
 
 body{
@@ -11,6 +11,10 @@ body{
 .Navegacion{
     display: flex;
     justify-content: center;
+}
+.mainClass{
+    display: flex;
+    gap: 20px;
 }
 
 .estiloTitulo{
@@ -23,3 +27,28 @@ body{
     display: flex;
     justify-content: center;
 }
+
+.figuraClase{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagenDanubio{
+    width: 500px;
+}
+
+.imagenBudapest{
+    width: 540px;
+    height: 270px;
+}
+
+h2{
+    font-family: "Krona One", sans-serif;
+}
+
+.estiloSeccion{
+    display: flex;
+    flex: 7;
+}
+
