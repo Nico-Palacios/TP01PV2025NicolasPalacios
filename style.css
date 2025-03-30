@@ -20,12 +20,12 @@ body{
 .estiloTitulo{
     display: flex;
     justify-content: center;
-    font-family: "Krona One", sans-serif;
-}
-
-.estiloFooter{
-    display: flex;
-    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    background-color: rgb(80, 80, 217);
+    width: 25%;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .figuraClase{
@@ -44,7 +44,8 @@ body{
 }
 
 h2{
-    font-family: "Krona One", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 550;
 }
 
 .estiloSeccion{
@@ -65,4 +66,27 @@ aside{
     padding: 15px;
     flex: 1;
     gap: 10px;
+    border-radius: 20px;
+    background-color: rgb(73, 73, 214);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.estiloArticulo{
+    background-color: rgb(63, 63, 208);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+p{
+    font-family: "Open Sans", sans-serif;
+}
+
+li{
+    font-family: "Open Sans", sans-serif;
+}
+
+.estiloFooter{
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
 }
