@@ -4,14 +4,26 @@
 }
 
 body{
-    background-color: rgb(4, 187, 187);
+    background-color: #2D336B;
     box-sizing: border-box;
 }
 
 .Navegacion{
     display: flex;
     justify-content: center;
+    gap: 50px;
+    font-size: 24px;
+    font-weight: 600;
 }
+
+.anclaNavegacion{
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(80, 80, 217);
+    border-radius: 8px;
+}
+
 .mainClass{
     display: flex;
     gap: 20px;
@@ -77,11 +89,7 @@ aside{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-p{
-    font-family: "Open Sans", sans-serif;
-}
-
-li{
+p, li{
     font-family: "Open Sans", sans-serif;
 }
 
