@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: aqua;
+    background-color: rgb(4, 187, 187);
     box-sizing: border-box;
 }
 
@@ -55,5 +55,14 @@ h2{
 article{
     display: flex;
     flex-direction: column;
+    gap: 10px;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 15px;
+    flex: 1;
     gap: 10px;
 }
