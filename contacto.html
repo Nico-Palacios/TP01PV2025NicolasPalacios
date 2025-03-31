@@ -6,12 +6,28 @@
     <title>TP01</title>
     <link rel="stylesheet" href="style.css">
     <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        main{
+            flex: 1;
+        }
         form{
             display: flex;
             flex-direction: column;
             width: 25%;
             align-items: center;
-            background-color: blue;
+            background-color: #7886C7;
+            border-radius: 8px;
+            height: 300px;
+        }
+        h2{
+            display: flex;
+            justify-content: center;
         }
     </style>
 </head>
@@ -21,21 +37,23 @@
             <a class="anclaNavegacion" href="index.html">Principal</a>
             <a class="anclaNavegacion" href="museos.html">Museos</a>
         </nav>
-        <h2 style="text-align: center;">Ingrese sus datos:</h2>
+        <h2>Ingrese sus datos:</h2>
     </header>
     <main style="display: flex; justify-content: center;">
         <form action="">
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre">
 
-            <label for="email">Email:</label>
+            <label for="email">Correo:</label>
             <input type="email" id="email" name="email" required>
 
-            <label for="password">Teléfono:</label>
+            <label for="telefono">Teléfono:</label>
             <input type="telefono" id="telefono" name="telefono">
 
             <label for="mensaje">Deje sus comentarios sobre lo que le parecio la página:</label>
             <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea>
+
+            <input type="submit" value="Enviar">
         </form>
     </main>
     <footer class="estiloFooter">Todos los Derechos Reservados</footer>
