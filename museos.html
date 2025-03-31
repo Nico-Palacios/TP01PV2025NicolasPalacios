@@ -8,7 +8,6 @@
     <style>
         .museosMain{
             display: flex;
-            flex-direction: row;
             width: 100%;
             justify-content: space-between;
         }
@@ -21,12 +20,14 @@
             flex: 0.5;
             gap: 1px;
         }
-        aside{
+        section{
             display: flex;
             flex-direction: column;
             align-items: center;
             flex: 1;
             gap: 4px;
+            background-color: #7886C7;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
         }
     </style>
 </head>
@@ -36,11 +37,14 @@
             <a class="anclaNavegacion" href="index.html">Principal</a>
             <a class="anclaNavegacion" href="contacto.html">Contacto</a>
         </nav>
-        <h1 style="text-align: center; font-family: Krona One, sans-serif;">Explorando Budapest a Través de sus Museos</h1>
+        <div style="display: flex; justify-content: center;">
+            <h1 class="estiloTitulo">Explorando Budapest a Través de sus Museos</h1>
+        </div>
+        
     </header>
     <main class="museosMain">
         
-        <aside>
+        <section>
             <h2>Budapest: Un tesoro cultural en museos</h2>
             <p>
                 Budapest alberga una impresionante variedad de museos que reflejan su rica historia, arte y cultura. Uno de los más emblemáticos es el Museo Nacional de Hungría (Magyar Nemzeti Múzeum), ubicado en un majestuoso edificio neoclásico en el distrito VIII. Este museo narra la historia del país desde la prehistoria hasta la era moderna, destacando la Corona de San Esteban y exposiciones sobre la Revolución Húngara de 1956. Su escalinata frontal fue escenario clave durante las protestas de 1848, añadiendo un valor histórico adicional.
@@ -59,52 +63,52 @@
                 Para explorar el pasado romano de la ciudad, el Museo Aquincum exhibe ruinas y artefactos de la antigua ciudad de Aquincum, incluyendo mosaicos y un órgano acuático reconstruido. En un tono más oscuro pero igualmente fascinante, el Museo Hospital en la Roca (Sziklakórház) muestra un hospital secreto usado durante la Segunda Guerra Mundial y la Revolución de 1956, con equipos médicos originales y escenas reconstruidas con figuras de cera.     
             </p>
             <img class="imagenMuseo" style="align-items: center;" src="assets/museo-bellas-artes.webp" alt="Museo de Budapest">
-        </aside>
-
-        <ol>
-            <h2>Museos Principales en Budapest</h2>
-            <li><a href="https://www.petitfute.es/v44683-budapest/c1173-visites-points-d-interet/c958-musee/140440-musee-national-hongrois-magyar-nemzeti-muzeum.html">Museo Nacional de Hungría (Magyar Nemzeti Múzeum)</a></li>
-            <ul>
-                <li>Temática: Historia de Hungría</li>
-            </ul>
-            <li><a href="https://www.tripadvisor.es/Attraction_Review-g274887-d276806-Reviews-Hungarian_National_Gallery_Magyar_Nemzeti_Galeria-Budapest_Central_Hungary.html">Galería Nacional Húngara (Magyar Nemzeti Galéria)</a></li>
-            <ul>
-                <li>Ubicada en el Castillo de Buda, arte húngaro desde la Edad Media</li>
-            </ul>
-            <li><a href="https://freebudapesttour.com/es/museo-de-bellas-artes/">Museo de Bellas Artes (Szépművészeti Múzeum)</a></li>
-            <ul>
-                <li>Arte europeo (desde la antigüedad hasta el siglo XX)</li>
-            </ul>
-            <li><a href="https://www.budapest.es/museo-artes-aplicadas">Museo de Artes Aplicadas (Iparművészeti Múzeum)</a></li>
-            <ul>
-                <li>Diseño, artes decorativas y arquitectura</li>
-            </ul>
-            <li><a href="https://www.budapest.es/museo-historia-budapest">Museo de Historia de Budapest (Budapesti Történeti Múzeum)</a></li>
-            <ul>
-                <li>Historia de la ciudad (en el Castillo de Buda)</li>
-            </ul>
-            <li><a href="https://www.viajarbudapest.com/casa-del-terror/">Casa del Terror (Terror Háza)</a></li>
-            <ul>
-                <li>Exhibición sobre los regímenes fascista y comunista en Hungría</li>
-            </ul>
-            <li><a href="https://www.budapestinfo.hu/es/museo-judio-de-hungria">Museo Judío de Budapest (Zsidó Múzeum)</a></li>
-            <ul>
-                <li>Historia y cultura judía en Hungría</li>
-            </ul>
-            <li><a href="https://bookinbudapest.com/es/casa-musica-hungara">Museo de la Música (Zene Háza - Magyar Zenei Múzeum)</a></li>
-            <ul>
-                <li>Instrumentos musicales y compositores húngaros</li>
-            </ul>
-            <li><a href="https://www.budapestinfo.hu/es/museo-de-ciencias-naturales-de-hungria">Museo de Ciencias Naturales de Hungría (Magyar Természettudományi Múzeum)</a></li>
-            <ul>
-                <li>Geología, paleontología y biología</li>
-            </ul>
-            <li><a href="https://www.101viajes.com/budapest/museo-arte-contemporaneo-ludwig">Museo de Arte Contemporáneo (Ludwig Múzeum)</a></li>
-            <ul>
-                <li>Arte moderno y contemporáneo internacional</li>
-            </ul>
-        </ol>
-
+        </section>
+        <div>
+            <ol>
+                <h2>Museos Principales en Budapest</h2>
+                <li><a href="https://www.petitfute.es/v44683-budapest/c1173-visites-points-d-interet/c958-musee/140440-musee-national-hongrois-magyar-nemzeti-muzeum.html">Museo Nacional de Hungría (Magyar Nemzeti Múzeum)</a></li>
+                <ul>
+                    <li>Temática: Historia de Hungría</li>
+                </ul>
+                <li><a href="https://www.tripadvisor.es/Attraction_Review-g274887-d276806-Reviews-Hungarian_National_Gallery_Magyar_Nemzeti_Galeria-Budapest_Central_Hungary.html">Galería Nacional Húngara (Magyar Nemzeti Galéria)</a></li>
+                <ul>
+                    <li>Ubicada en el Castillo de Buda, arte húngaro desde la Edad Media</li>
+                </ul>
+                <li><a href="https://freebudapesttour.com/es/museo-de-bellas-artes/">Museo de Bellas Artes (Szépművészeti Múzeum)</a></li>
+                <ul>
+                    <li>Arte europeo (desde la antigüedad hasta el siglo XX)</li>
+                </ul>
+                <li><a href="https://www.budapest.es/museo-artes-aplicadas">Museo de Artes Aplicadas (Iparművészeti Múzeum)</a></li>
+                <ul>
+                    <li>Diseño, artes decorativas y arquitectura</li>
+                </ul>
+                <li><a href="https://www.budapest.es/museo-historia-budapest">Museo de Historia de Budapest (Budapesti Történeti Múzeum)</a></li>
+                <ul>
+                    <li>Historia de la ciudad (en el Castillo de Buda)</li>
+                </ul>
+                <li><a href="https://www.viajarbudapest.com/casa-del-terror/">Casa del Terror (Terror Háza)</a></li>
+                <ul>
+                    <li>Exhibición sobre los regímenes fascista y comunista en Hungría</li>
+                </ul>
+                <li><a href="https://www.budapestinfo.hu/es/museo-judio-de-hungria">Museo Judío de Budapest (Zsidó Múzeum)</a></li>
+                <ul>
+                    <li>Historia y cultura judía en Hungría</li>
+                </ul>
+                <li><a href="https://bookinbudapest.com/es/casa-musica-hungara">Museo de la Música (Zene Háza - Magyar Zenei Múzeum)</a></li>
+                <ul>
+                    <li>Instrumentos musicales y compositores húngaros</li>
+                </ul>
+                <li><a href="https://www.budapestinfo.hu/es/museo-de-ciencias-naturales-de-hungria">Museo de Ciencias Naturales de Hungría (Magyar Természettudományi Múzeum)</a></li>
+                <ul>
+                    <li>Geología, paleontología y biología</li>
+                </ul>
+                <li><a href="https://www.101viajes.com/budapest/museo-arte-contemporaneo-ludwig">Museo de Arte Contemporáneo (Ludwig Múzeum)</a></li>
+                <ul>
+                    <li>Arte moderno y contemporáneo internacional</li>
+                </ul>
+            </ol>
+        </div>
     </main>
     <footer class="estiloFooter">Todos los Derechos Reservados</footer>
 </body>

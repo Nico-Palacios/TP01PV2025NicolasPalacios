@@ -37,7 +37,7 @@ body{
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     background-color: #7886C7;
-    width: 25%;
+    width: auto;
     border-radius: 8px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -115,7 +115,7 @@ p, li{
         display: flex;
         flex-direction: column;
     }
-    aside{
+    section{
         width: auto;
     }
     .imagenDanubio{
@@ -128,6 +128,7 @@ p, li{
     .museosMain{
         display: flex;
         flex-direction: column;
+        width: auto;
     }
     .imagenMuseo{
         width: 275px;
@@ -135,7 +136,7 @@ p, li{
     .estiloTitulo{
         width: auto;
     }
-    form{
+    aside{
         width: auto;
     }
 } 
