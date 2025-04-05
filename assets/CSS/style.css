@@ -9,6 +9,12 @@ body{
     box-sizing: border-box;
 }
 
+.estiloHeader{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
 .Navegacion{
     display: flex;
     justify-content: center;
@@ -57,9 +63,47 @@ body{
     height: 270px;
 }
 
+.museoTitulo{
+    display: flex;
+    justify-content: center;
+}
+
+.imagenMuseo{
+    align-items: center;
+    width: 550px;
+}
+
+.museosMain{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.museoSeccion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    gap: 4px;
+    background-color: #7886C7;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+ol{
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    gap: 1px;
+}
+
 h2{
     font-family: "Montserrat", sans-serif;
     font-weight: 550;
+}
+
+h3{
+    font-family: Montserrat, sans-serif;
 }
 
 .estiloSeccion{
@@ -67,6 +111,9 @@ h2{
     flex: 7;
 }
 
+.estiloArticulo{
+    text-align: center;
+}
 article{
     display: flex;
     flex-direction: column;
@@ -94,6 +141,35 @@ aside{
 p, li{
     font-family: "Open Sans", sans-serif;
     color: #FFF2F2;
+}
+
+.tituloFormulario{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+#miFormulario{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+    background-color: #7886C7;
+    border-radius: 8px;
+    height: 300px;
+}
+
+.bodyForm{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .estiloFooter{

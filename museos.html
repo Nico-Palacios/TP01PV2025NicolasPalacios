@@ -5,46 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TP01</title>
     <link rel="stylesheet" href="assets/CSS/style.css">
-    <style>
-        .museosMain{
-            display: flex;
-            width: 100%;
-            justify-content: space-between;
-        }
-        img{
-            width: 550px;
-        }
-        ol{
-            display: flex;
-            flex-direction: column;
-            flex: 0.5;
-            gap: 1px;
-        }
-        section{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            flex: 1;
-            gap: 4px;
-            background-color: #7886C7;
-            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-        }
-    </style>
 </head>
 <body>
-    <header>
+    <header class="estiloHeader">
         <nav class="Navegacion">
             <a class="anclaNavegacion" href="index.html">Principal</a>
             <a class="anclaNavegacion" href="contacto.html">Contacto</a>
         </nav>
-        <div style="display: flex; justify-content: center;">
+        <div class="museoTitulo">
             <h1 class="estiloTitulo">Explorando Budapest a Través de sus Museos</h1>
         </div>
         
     </header>
     <main class="museosMain">
         
-        <section>
+        <section class="museoSeccion">
             <h2>Budapest: Un tesoro cultural en museos</h2>
             <p>
                 Budapest alberga una impresionante variedad de museos que reflejan su rica historia, arte y cultura. Uno de los más emblemáticos es el Museo Nacional de Hungría (Magyar Nemzeti Múzeum), ubicado en un majestuoso edificio neoclásico en el distrito VIII. Este museo narra la historia del país desde la prehistoria hasta la era moderna, destacando la Corona de San Esteban y exposiciones sobre la Revolución Húngara de 1956. Su escalinata frontal fue escenario clave durante las protestas de 1848, añadiendo un valor histórico adicional.
@@ -62,7 +37,7 @@
             <p>
                 Para explorar el pasado romano de la ciudad, el Museo Aquincum exhibe ruinas y artefactos de la antigua ciudad de Aquincum, incluyendo mosaicos y un órgano acuático reconstruido. En un tono más oscuro pero igualmente fascinante, el Museo Hospital en la Roca (Sziklakórház) muestra un hospital secreto usado durante la Segunda Guerra Mundial y la Revolución de 1956, con equipos médicos originales y escenas reconstruidas con figuras de cera.     
             </p>
-            <img class="imagenMuseo" style="align-items: center;" src="assets/images/museo-bellas-artes.webp" alt="Museo de Budapest">
+            <img class="imagenMuseo" src="assets/images/museo-bellas-artes.webp" alt="Museo de Budapest">
         </section>
         <div>
             <ol>
